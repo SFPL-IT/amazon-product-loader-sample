@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "ae51844f5d97feefdbde81891ce4dce9",
-    "content-hash": "2e68d238818e35038730abf484d7e619",
+    "hash": "1ce82742bb2bfc2dd1e5d0abc9851ac4",
+    "content-hash": "f730d9fd52607aa514681243b878b82f",
     "packages": [
         {
             "name": "elasticsearch/elasticsearch",
@@ -499,11 +499,16 @@
         {
             "name": "sfdev/amazon-product-loader",
             "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/SFPL-IT/amazon-product-loader.git",
+                "reference": "ea394b965af9b8c5ae9b7be0815b46c429d4782f"
+            },
             "dist": {
-                "type": "path",
-                "url": "../amazon-product-loader",
-                "reference": "c466b3d6dbcf50a7ec2977577a87a8052593e6ba",
-                "shasum": null
+                "type": "zip",
+                "url": "https://api.github.com/repos/SFPL-IT/amazon-product-loader/zipball/ea394b965af9b8c5ae9b7be0815b46c429d4782f",
+                "reference": "ea394b965af9b8c5ae9b7be0815b46c429d4782f",
+                "shasum": ""
             },
             "require": {
                 "elasticsearch/elasticsearch": "<7.0",
@@ -536,11 +541,10 @@
             ],
             "support": {
                 "issues": "https://bitbucket.org/sfds-dev/amazon-product-loader/issues",
-                "docs": "https://bitbucket.org/sfds-dev/amazon-product-loader/"
+                "docs": "https://bitbucket.org/sfds-dev/amazon-product-loader/",
+                "source": "https://github.com/SFPL-IT/amazon-product-loader/tree/master"
             },
-            "transport-options": {
-                "symlink": true
-            }
+            "time": "2020-06-09 22:36:59"
         },
         {
             "name": "symfony/dotenv",

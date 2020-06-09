@@ -1,15 +1,13 @@
 {
     "require": {
-        "sfdev/amazon-product-loader": "@dev",
+    	"php": "^7.1.3",
+        "sfdev/amazon-product-loader": "dev-master",
         "symfony/dotenv": "^4.4.9"
     },
     "repositories": [
 	    {
-	        "type": "path",
-	        "url": "../amazon-product-loader",
-	        "options": {
-	        	"symlink": true
-	        }
+	        "type": "vcs",
+	        "url": "https://github.com/SFPL-IT/amazon-product-loader.git"
 	    }
 	],
 	"minimum-stability": "dev",
