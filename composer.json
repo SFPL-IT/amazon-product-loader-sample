@@ -1,0 +1,17 @@
+{
+    "require": {
+        "sfdev/amazon-product-loader": "@dev",
+        "symfony/dotenv": "^4.4.9"
+    },
+    "repositories": [
+	    {
+	        "type": "path",
+	        "url": "../amazon-product-loader",
+	        "options": {
+	        	"symlink": true
+	        }
+	    }
+	],
+	"minimum-stability": "dev",
+	"prefer-stable": true
+}
