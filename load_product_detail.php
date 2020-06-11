@@ -29,3 +29,6 @@ $password = getenv('PRODUCT_SERVICE_PASSWORD') ?? '';
 $loader = new ProductLoader($host, $port, $user, $password);
 $products = $loader->getProducts($asins, $marketplace);
 print_r($products);
+
+$productCategories = $loader->getProductCategories($asins, $marketplace);
+print_r($productCategories);

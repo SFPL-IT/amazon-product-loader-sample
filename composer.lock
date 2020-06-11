@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "1ce82742bb2bfc2dd1e5d0abc9851ac4",
-    "content-hash": "f730d9fd52607aa514681243b878b82f",
+    "hash": "fbe1303703bd08032fefa79ea9ab9012",
+    "content-hash": "659eda0698ecc89ea5a06b346837f939",
     "packages": [
         {
             "name": "elasticsearch/elasticsearch",
@@ -502,12 +502,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SFPL-IT/amazon-product-loader.git",
-                "reference": "ea394b965af9b8c5ae9b7be0815b46c429d4782f"
+                "reference": "1a05f2f43db9cf752e0a9c1a2153ff66e4596475"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SFPL-IT/amazon-product-loader/zipball/ea394b965af9b8c5ae9b7be0815b46c429d4782f",
-                "reference": "ea394b965af9b8c5ae9b7be0815b46c429d4782f",
+                "url": "https://api.github.com/repos/SFPL-IT/amazon-product-loader/zipball/1a05f2f43db9cf752e0a9c1a2153ff66e4596475",
+                "reference": "1a05f2f43db9cf752e0a9c1a2153ff66e4596475",
                 "shasum": ""
             },
             "require": {
@@ -544,7 +544,7 @@
                 "docs": "https://bitbucket.org/sfds-dev/amazon-product-loader/",
                 "source": "https://github.com/SFPL-IT/amazon-product-loader/tree/master"
             },
-            "time": "2020-06-09 22:36:59"
+            "time": "2020-06-11 15:42:47"
         },
         {
             "name": "symfony/dotenv",
@@ -612,6 +612,8 @@
     },
     "prefer-stable": true,
     "prefer-lowest": false,
-    "platform": [],
+    "platform": {
+        "php": "^7.1.3"
+    },
     "platform-dev": []
 }
