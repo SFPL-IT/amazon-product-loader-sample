@@ -1,10 +1,9 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "hash": "fbe1303703bd08032fefa79ea9ab9012",
     "content-hash": "659eda0698ecc89ea5a06b346837f939",
     "packages": [
         {
@@ -65,7 +64,7 @@
                 "elasticsearch",
                 "search"
             ],
-            "time": "2019-07-19 14:48:24"
+            "time": "2019-07-19T14:48:24+00:00"
         },
         {
             "name": "guzzlehttp/ringphp",
@@ -117,7 +116,7 @@
             ],
             "description": "Provides a simple API and specification that abstracts away the details of HTTP into a single PHP function.",
             "abandoned": true,
-            "time": "2018-07-31 13:22:33"
+            "time": "2018-07-31T13:22:33+00:00"
         },
         {
             "name": "guzzlehttp/streams",
@@ -168,7 +167,7 @@
                 "stream"
             ],
             "abandoned": true,
-            "time": "2014-10-12 19:18:40"
+            "time": "2014-10-12T19:18:40+00:00"
         },
         {
             "name": "massivescale/celery-php",
@@ -232,7 +231,7 @@
                 "redis",
                 "task"
             ],
-            "time": "2018-11-22 05:02:43"
+            "time": "2018-11-22T05:02:43+00:00"
         },
         {
             "name": "php-amqplib/php-amqplib",
@@ -309,20 +308,20 @@
                 "queue",
                 "rabbitmq"
             ],
-            "time": "2020-05-13 13:56:11"
+            "time": "2020-05-13T13:56:11+00:00"
         },
         {
             "name": "phpseclib/phpseclib",
-            "version": "2.0.27",
+            "version": "2.0.31",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpseclib/phpseclib.git",
-                "reference": "34620af4df7d1988d8f0d7e91f6c8a3bf931d8dc"
+                "reference": "233a920cb38636a43b18d428f9a8db1f0a1a08f4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/34620af4df7d1988d8f0d7e91f6c8a3bf931d8dc",
-                "reference": "34620af4df7d1988d8f0d7e91f6c8a3bf931d8dc",
+                "url": "https://api.github.com/repos/phpseclib/phpseclib/zipball/233a920cb38636a43b18d428f9a8db1f0a1a08f4",
+                "reference": "233a920cb38636a43b18d428f9a8db1f0a1a08f4",
                 "shasum": ""
             },
             "require": {
@@ -330,8 +329,7 @@
             },
             "require-dev": {
                 "phing/phing": "~2.7",
-                "phpunit/phpunit": "^4.8.35|^5.7|^6.0",
-                "sami/sami": "~2.0",
+                "phpunit/phpunit": "^4.8.35|^5.7|^6.0|^9.4",
                 "squizlabs/php_codesniffer": "~2.0"
             },
             "suggest": {
@@ -401,7 +399,25 @@
                 "x.509",
                 "x509"
             ],
-            "time": "2020-04-04 23:17:33"
+            "support": {
+                "issues": "https://github.com/phpseclib/phpseclib/issues",
+                "source": "https://github.com/phpseclib/phpseclib/tree/2.0.31"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/terrafrost",
+                    "type": "github"
+                },
+                {
+                    "url": "https://www.patreon.com/phpseclib",
+                    "type": "patreon"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/phpseclib/phpseclib",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2021-04-06T13:56:45+00:00"
         },
         {
             "name": "psr/log",
@@ -448,7 +464,7 @@
                 "psr",
                 "psr-3"
             ],
-            "time": "2020-03-23 09:12:05"
+            "time": "2020-03-23T09:12:05+00:00"
         },
         {
             "name": "react/promise",
@@ -494,7 +510,7 @@
                 "promise",
                 "promises"
             ],
-            "time": "2020-05-12 15:16:56"
+            "time": "2020-05-12T15:16:56+00:00"
         },
         {
             "name": "sfdev/amazon-product-loader",
@@ -544,7 +560,7 @@
                 "docs": "https://bitbucket.org/sfds-dev/amazon-product-loader/",
                 "source": "https://github.com/SFPL-IT/amazon-product-loader/tree/master"
             },
-            "time": "2020-06-11 15:42:47"
+            "time": "2020-06-11T15:42:47+00:00"
         },
         {
             "name": "symfony/dotenv",
@@ -601,7 +617,7 @@
                 "env",
                 "environment"
             ],
-            "time": "2020-05-26 09:42:42"
+            "time": "2020-05-26T09:42:42+00:00"
         }
     ],
     "packages-dev": [],
@@ -615,5 +631,6 @@
     "platform": {
         "php": "^7.1.3"
     },
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
 }
